@@ -1,0 +1,144 @@
+@import url('https://webfontworld.github.io/NexonLv1Gothic/NexonLv1Gothic.css');
+@import url('https://webfontworld.github.io/earlyfont/EF_Hyunygothic.css');
+@import url('https://webfontworld.github.io/Healthset/HealthsetGothic.css');
+@import url('https://webfontworld.github.io/nixgon/NixgonFonts.css');
+@import url('https://webfontworld.github.io/woori/Wooridaum.css');
+@import url('https://webfontworld.github.io/NanumSquare/NanumSquare.css');
+@import url('https://webfontworld.github.io/amore/AritaBuri.css');
+@import url('https://webfontworld.github.io/tmoney/TmoneyRoundWind.css');
+@import url('https://webfontworld.github.io/jikji/JHaebaragi.css');
+@import url('https://webfontworld.github.io/nhn/Godo.css');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+li, ul, ol {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+}
+em {
+    font-style: normal;
+}
+.font01 {
+    font-family: 'NexonLv1Gothic';
+    font-weight: 300;
+}
+.font02 {
+    font-family: 'EF_Hyunygothic';
+}
+.font03 {
+    font-family: 'HealthsetGothic';
+}
+.font04 {
+    font-family: 'NixgonFonts';
+}
+.font05 {
+    font-family: 'Wooridaum';
+}
+.font06 {
+    font-family: 'NanumSquare';
+}
+.font07 {
+    font-family: 'AritaBuri';
+}
+.font08 {
+    font-family: 'TmoneyRoundWind';
+}
+.font09 {
+    font-family: 'JHaebaragi';
+}
+.font10 {
+    font-family: 'Godo';
+}
+body {
+    width: 100%;
+    height: 100vh;   
+    overflow: hidden; 
+    background-position: center center;
+    background-size: cover;
+}
+body.img01{
+    background-image: url(../img/sliderEffect01-min.jpg);
+}
+body.img02{
+    background-image: url(../img/sliderEffect02-min.jpg);
+}
+body.img03{
+    background-image: url(../img/sliderEffect03-min.jpg);
+}
+body.img04{
+    background-image: url(../img/sliderEffect04-min.jpg);
+}
+body.img05{
+    background-image: url(../img/sliderEffect05-min.jpg);
+}
+body.img06{
+    background-image: url(../img/sliderEffect06-min.jpg);
+}
+body.img07{
+    background-image: url(../img/sliderEffect07-min.jpg);
+}
+body.img08{
+    background-image: url(../img/sliderEffect08-min.jpg);
+}
+body.img09{
+    background-image: url(../img/sliderEffect09-min.jpg);
+}
+body.img10{
+    background-image: url(../img/sliderEffect10-min.jpg);
+}
+body::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;    
+    z-index: -1;
+}
+body.bg01::after {
+    background: rgba(60, 136, 139, 0.8);
+}
+body.bg02::after {
+    background: rgba(121, 139, 47, 0.8);
+}
+body.bg03::after {
+    background: rgba(30, 50, 70, 0.97);
+}
+body.bg04::after {
+    background: rgba(140, 60, 107, 0.8);
+}
+body.bg05::after {
+    background: rgba(170, 71, 71, 0.8);
+}
+body.bg06::after {
+    background: rgba(75, 154, 66, 0.8);
+}
+body.bg07::after {
+    background: rgba(205, 207, 91, 0.8);
+}
+body.bg08::after {
+    background: rgba(140, 98, 60, 0.8);
+}
+body.bg09::after {
+    background: rgba(20, 122, 150, 0.8);
+}
+body.bg10::after {
+    background: rgba(117, 112, 171, 0.8);
+}
